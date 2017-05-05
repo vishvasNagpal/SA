@@ -2,7 +2,7 @@
 
 
 
-Technologies Used: NodeJs, ExpressJs, ReactJs, Bootstrap, Jquery
+Technologies Used: NodeJs, ExpressJs, ReactJs, Jquery
 
 
 
@@ -24,8 +24,6 @@ Please follow the instructions below:
 
 [2017-03-01 08:25:42.807] [DEBUG] config.route.routerLoader - loading router:home, class:/routes/homeRouter
 
-[2017-03-01 08:25:42.821] [DEBUG] config.route.routerLoader - loading router:editItem, class:/routes/EditItemRouter
-
 [2017-03-01 08:25:42.823] [DEBUG] config.route.routerLoader - loading router:resource, class:/routes/ResourceRouter
 
 listening to port 3000
@@ -34,7 +32,11 @@ listening to port 3000
 
 6. Go to your browser and hit "http://localhost:3000/home"
 
-7. The page will load. 
+7. The page will load.
+
+8. In the json file of data which provide details about flights, i have put in Routes for delhi to kolkata and delhi to mumbai and vice varsa.
+
+9. Other then that it will show a message "No results found"
 
 
 
