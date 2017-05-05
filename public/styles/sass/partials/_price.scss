@@ -1,0 +1,23 @@
+@mixin setPriceFormat($fontSize,$fontSizeOther,$fontWeight,$color,$margin){
+  color: $color;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  position: relative;
+  .top-text{
+    font-size: $fontSizeOther;
+    vertical-align: top;
+    margin: $margin ;
+    display: inline-block;
+  }
+  .bottom-text{
+    font-size: $fontSizeOther;
+    display: inline-block;
+    margin-left: 2px;
+  }
+  .priceComma:after{
+    content: '\002c';
+  }
+  .priceDot:after{
+    content: '\002e';
+  }
+}

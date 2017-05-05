@@ -5,11 +5,7 @@
         <route-url>/home</route-url>
         <route-class>/routes/homeRouter</route-class>
     </route>
-    <route>
-        <route-name>editItem</route-name>
-        <route-url>/editProd</route-url>
-        <route-class>/routes/EditItemRouter</route-class>
-    </route>
+
     <route>
         <route-name>resource</route-name>
         <route-url>/res/*</route-url>
