@@ -18,13 +18,13 @@ Please follow the instructions below:
 
 5. After running this command it will show some logs like:
 
-[2017-03-01 08:25:42.594] [INFO] init - app init
+[2017-05-05 08:49:51.129] [INFO] init - app init
 
-[2017-03-01 08:25:42.648] [INFO] config.route.routerLoader - i am ain route loader
+[2017-05-05 08:49:51.264] [INFO] config.route.routerLoader - i am ain route loader
 
-[2017-03-01 08:25:42.807] [DEBUG] config.route.routerLoader - loading router:home, class:/routes/homeRouter
+[2017-05-05 08:49:51.809] [DEBUG] config.route.routerLoader - loading router:home, class:/routes/homeRouter
 
-[2017-03-01 08:25:42.823] [DEBUG] config.route.routerLoader - loading router:resource, class:/routes/ResourceRouter
+[2017-05-05 08:49:51.817] [DEBUG] config.route.routerLoader - loading router:resource, class:/routes/ResourceRouter
 
 listening to port 3000
 
